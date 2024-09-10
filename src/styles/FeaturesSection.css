@@ -1,0 +1,39 @@
+.features-container {
+    padding: 60px 20px;
+    background: linear-gradient(200deg, #fff, #676768); /* Gradient background for consistency */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .features-container h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    color: #004080;
+    text-align: center;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  

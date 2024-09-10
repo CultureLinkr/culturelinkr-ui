@@ -1,0 +1,141 @@
+.about-page {
+    padding: 20px 0px 0px 0px;
+    background: #f8f8f8;
+  }
+  
+  /* About Header Section */
+  .about-header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0056b3, #0091ea);
+    color: #fff;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Mission Statement Section */
+  .mission-statement {
+    background: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission-statement h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .mission-statement p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    color: #0056b3;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* How We Work Section */
+  .how-we-work {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .how-we-work h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .how-we-work p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    background: linear-gradient(135deg, #0056b3, #0091ea);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .call-to-action h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #0056b3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #003f7f;
+    color: #fff;
+  }
+  

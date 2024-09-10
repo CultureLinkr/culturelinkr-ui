@@ -1,0 +1,28 @@
+.cta-container {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0056b3, #004080); /* Gradient background for consistency */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .cta-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #0056b3;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #f8f9fa;
+    color: #004080;
+  }
+  
